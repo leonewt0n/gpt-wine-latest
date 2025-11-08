@@ -22,3 +22,9 @@ wine64 ~/Downloads/steamsetup.exe
 ```
  wine64 .wine/drive_c/Program\ Files\ \(x86\)/Steam/steam.exe
 ```
+
+# How I made it
+- Installed gcenx's game-porting-toolkit cask
+- overwrite the files in all of the lib root directory with Gcenx's 10.18 Wine (https://github.com/Gcenx/macOS_Wine_builds/releases)
+- overwrite the libs in the wine folder with 10.18
+- Added DXMT libs to folders
