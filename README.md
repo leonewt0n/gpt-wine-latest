@@ -13,3 +13,13 @@ May have to:
 ```
 sudo xattr -d com.apple.quarantine /Applications/Game Porting Toolkit.app
 ```
+
+# Installing Steam
+```
+wine64 ~/Downloads/steamsetup.exe
+```
+
+# Running Steam
+```
+ wine64 .wine/drive_c/Program\ Files\ \(x86\)/Steam/steam.exe
+```
